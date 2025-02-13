@@ -1,0 +1,2 @@
+Build path: D:/UnityProjects/YandexGame
+Build number: 17

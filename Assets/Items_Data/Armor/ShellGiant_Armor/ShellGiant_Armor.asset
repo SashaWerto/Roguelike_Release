@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc50a06aa8a9ba49ad9795ac96a4242, type: 3}
+  m_Name: ShellGiant_Armor
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 150fc141dfc52c44a9451a48aeee2ae6, type: 3}
+  label:
+  - textRef: "\u041F\u0430\u043D\u0446\u0438\u0440\u044C \u0418\u0441\u043F\u043E\u043B\u0438\u043D\u0430"
+    type: 1
+  - textRef: The shell of a Giant
+    type: 2
+  prefab: {fileID: 4968972333193969815, guid: fc801f4231856be4894cfbe11bf89647, type: 3}
+  level: 1
+  price:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 356
+      inSlope: 485.21774
+      outSlope: 485.21774
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 29.717342
+      value: 14290.164
+      inSlope: 10.052128
+      outSlope: 10.052128
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.50751597
+      outWeight: 0.2801921
+    - serializedVersion: 3
+      time: 100
+      value: 128000
+      inSlope: 1152.9706
+      outSlope: 1152.9706
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.11115344
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  itemStatsList:
+  - statType: 3
+    valueCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1
+        value: 15
+        inSlope: 5.909091
+        outSlope: 5.909091
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 100
+        value: 600
+        inSlope: 5.909091
+        outSlope: 5.909091
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - statType: 1
+    valueCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1
+        value: 3
+        inSlope: 2.4949496
+        outSlope: 2.4949496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 100
+        value: 250
+        inSlope: 2.4949496
+        outSlope: 2.4949496
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  tier: 1
+  maxCount: 1
+  isStackable: 0
+  itemType: 3

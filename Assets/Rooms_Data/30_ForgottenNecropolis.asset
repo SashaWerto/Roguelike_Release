@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba21425bd0ebbcc4eaa351d4ad6be9a2, type: 3}
+  m_Name: 30_ForgottenNecropolis
+  m_EditorClassIdentifier: 
+  roomsList:
+  - {fileID: 862568381087483499, guid: b6b447108f0f5ac47acbeb8e0e60fa38, type: 3}
+  - {fileID: 3763543604555775305, guid: f1488b5e6b0153049a0af02123dc437a, type: 3}
+  - {fileID: 2191453749719512573, guid: d925951b193daf54ebf198b23edb60e7, type: 3}
+  - {fileID: 3763543604555775305, guid: f1488b5e6b0153049a0af02123dc437a, type: 3}
+  - {fileID: 3763543604555775305, guid: 8136ff5b20bb6d84ea177c589414e8a2, type: 3}
+  - {fileID: 8124426659162194010, guid: b8592c80c86b6f440b8cf88527685506, type: 3}
+  - {fileID: 862568381087483499, guid: eeb13430ca8c0ce44a124b6c3f519775, type: 3}
+  label:
+  - textRef: "\u0417\u0430\u0431\u044B\u0442\u044B\u0439 \u041D\u0435\u043A\u0440\u043E\u043F\u043E\u043B\u044C"
+    type: 1
+  - textRef: The Forgotten Necropolis
+    type: 2
+  level: 30
+  sceneName: Rooms_Generation
+  icon: {fileID: 21300000, guid: 13685f35c1b133149b84cf87cc05b347, type: 3}
+  itemsReward: []
+  goldReward: 5000
+  expReward: 8000

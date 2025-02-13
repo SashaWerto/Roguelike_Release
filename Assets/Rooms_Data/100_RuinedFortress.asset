@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba21425bd0ebbcc4eaa351d4ad6be9a2, type: 3}
+  m_Name: 100_RuinedFortress
+  m_EditorClassIdentifier: 
+  roomsList:
+  - {fileID: 862568381087483499, guid: b6b447108f0f5ac47acbeb8e0e60fa38, type: 3}
+  - {fileID: 2191453749719512573, guid: d925951b193daf54ebf198b23edb60e7, type: 3}
+  - {fileID: 3763543604555775305, guid: f1488b5e6b0153049a0af02123dc437a, type: 3}
+  - {fileID: 2191453749719512573, guid: d925951b193daf54ebf198b23edb60e7, type: 3}
+  - {fileID: 8124426659162194010, guid: b8592c80c86b6f440b8cf88527685506, type: 3}
+  - {fileID: 3763543604555775305, guid: f1488b5e6b0153049a0af02123dc437a, type: 3}
+  - {fileID: 3763543604555775305, guid: 8136ff5b20bb6d84ea177c589414e8a2, type: 3}
+  - {fileID: 3763543604555775305, guid: f1488b5e6b0153049a0af02123dc437a, type: 3}
+  - {fileID: 8124426659162194010, guid: b8592c80c86b6f440b8cf88527685506, type: 3}
+  - {fileID: 2191453749719512573, guid: d925951b193daf54ebf198b23edb60e7, type: 3}
+  - {fileID: 3763543604555775305, guid: 8136ff5b20bb6d84ea177c589414e8a2, type: 3}
+  - {fileID: 3763543604555775305, guid: f1488b5e6b0153049a0af02123dc437a, type: 3}
+  - {fileID: 8124426659162194010, guid: b8592c80c86b6f440b8cf88527685506, type: 3}
+  - {fileID: 862568381087483499, guid: eeb13430ca8c0ce44a124b6c3f519775, type: 3}
+  label:
+  - textRef: "\u0420\u0430\u0437\u0440\u0443\u0448\u0435\u043D\u043D\u0430\u044F
+      \u041A\u0440\u0435\u043F\u043E\u0441\u0442\u044C"
+    type: 1
+  - textRef: Ruined Fortress
+    type: 2
+  level: 100
+  sceneName: Rooms_Generation
+  icon: {fileID: 21300000, guid: 13685f35c1b133149b84cf87cc05b347, type: 3}
+  itemsReward:
+  - {fileID: 11400000, guid: 922886222697b5c47b5fa11ab3ac354f, type: 2}
+  goldReward: 30000
+  expReward: 50000
